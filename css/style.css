@@ -1,0 +1,187 @@
+
+
+/* Shared
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+
+/* Wrapper
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+
+.wrapper {
+  display: flex;
+  flex-direction: column;
+  /*border: 10px solid #333;*/
+  align-items: flex-start;
+  min-height: 100vh;
+  font-family: "Vollkorn", serif;
+  animation: fadein 2s;
+}
+
+@keyframes fadein {
+   from { opacity: 0; }
+   to   { opacity: 1; }
+}
+
+
+/* About
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%;
+  order: 0;
+  min-height: 98vh;
+}
+
+
+/* Projects
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.projects {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.project {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 100%; 
+  min-height: 98vh;
+}
+
+
+.opentable {
+  background-color: #da3743;
+}
+
+
+.ebay {
+  background-color: #fdf7d9;
+}
+
+
+.logo-date {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 2em;
+  padding-bottom: 2em;
+}
+
+.logo img {
+  width: 130px;
+}
+
+.ot-divider,
+.ebay-divider {
+  width: 1em;
+  background-color: transparent;
+  margin-top: 1em;
+}
+
+.ot-divider {
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.ebay-divider {
+  border-bottom: 1px solid #333;
+}
+
+
+
+
+.ot-time,
+.ebay-time {
+  font-family: 'Lato', sans-serif;
+  font-size: 0.85em;
+  font-weight: 600;
+  margin: 0.5rem auto;
+}
+
+.ebay-time {
+  color: #312c13;
+}
+
+.ot-time {
+  color: #eee;
+}
+
+
+
+
+.intro-btn {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.about-intro,
+.ot-intro,
+.ebay-intro {
+  width: 50%;
+  line-height: 2;
+  margin-top: 1em;
+  margin-bottom: 3em;
+  padding-right: 2em;
+  text-align: center;
+}
+
+.ot-intro,
+.ot-intro a {
+  color: #eee;
+}
+
+.ebay-intro,
+.ebay-intro a {
+  color: #312c13;
+}
+
+
+
+
+
+.ot-btn,
+.ebay-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  width: 10em;
+  height: 2em;
+  border-radius: 3px;
+  text-decoration: none;
+  margin-bottom: 2em;
+  font-family: "Lato", sans-serif;
+}
+
+.ot-btn {
+  background-color: #FFF;
+  border: 1px solid #FFF;
+  color: #da3743;
+}
+
+.ebay-btn {
+  background-color: #1a508c;
+  border: 1px solid #1a508c;
+  color: #fff;
+}
+
+
+
+
+
+
+/* above 70em */
+@media (min-width: 70em) {
+
+}
+
+
+  
