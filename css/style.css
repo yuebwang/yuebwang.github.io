@@ -1,3 +1,41 @@
+/* Shared
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
 h1 {
   color: red;
+}
+
+/* Wrapper
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.wrapper {
+	min-height: 100vh;
+	min-width: 100vw;
+	border: 10em solid green;
+}
+
+.l1 {
+	min-height: 90vh;
+	min-width: 80vw;
+	border: 10em solid red;
+}
+
+.l2 {
+	min-height: 80vh;
+	min-width: 60vw;
+	border: 10em solid yellow;
+}
+
+.l3 {
+	min-height: 70vh;
+	min-width: 40vw;
+	border: 10em solid grey;
+}
+
+.l4 {
+	min-height: 70vh;
+	min-width: 20vw;
+	border: 10em solid black;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: center;
 }
