@@ -1,3 +1,24 @@
-body {
-  background: url("img/bg.jpg") repeat; 
+.wrapper {
+  background: url("../img/bg.jpg") repeat;
+  background-size: 25em;
+  position: relative;
+}
+
+.content {
+  position: absolute;
+  margin-top: 40%;
+  margin-left: 10%;
+}
+
+.title {
+  font-family: "Open Sans", Helvetica, sans-serif;
+  font-size: 1.5em;
+  color: #00F;
+  font-weight: 600;
+}
+
+.sub-title {
+  font-family: Vollkorn, Georgia, serif;
+  font-size: 5em;
+  color: #00F;
 }
