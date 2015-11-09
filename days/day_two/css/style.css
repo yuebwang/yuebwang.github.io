@@ -1,13 +1,3 @@
-/* Shared
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-h1 {
-  color: red;
-}
-
-/* Wrapper
-–––––––––––––––––––––––––––––––––––––––––––––––––– */
-.wrapper {
-	min-height: 100vh;
-	min-width: 100vw;
-	border: 10em solid green;
+body {
+  background: url("img/bg.jpg") repeat; 
 }
