@@ -1,15 +1,17 @@
 /* Shared
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-h1                { color: red; }
-a                 { text-decoration: none; }
+a                 { text-decoration:none; color:black; }
+*                 { border-radius:999px; }
 
 /* Wrapper
 –––––––––––––––––––––––––––––––––––––––––––––––––– */
-.wrapper          { max-height: auto; max-width: auto; border: 10em solid green; }
+.wrapper          { max-height: auto; max-width: auto; border: 10em solid blue; }
 .l1               { max-height: auto; max-width: auto; border: 10em solid red; }
 .l2               { max-height: auto; max-width: auto; border: 10em solid yellow; }
 .l3               { max-height: auto; max-width: auto; border: 10em solid grey; }
-.l4               { max-height: auto; max-width: auto; border: 10em solid black; display: flex; flex-direction: row; align-items: center; justify-content: center; }
+.l4               { max-height: auto; max-width: auto; border: 10em solid white; display: flex; flex-direction: row; align-items: center; justify-content: center; }
+.title            { font-size:150%; text-align:center; }
+
 
 /* ----------------------------------------------------------------------------------------------------------
 Media queries (mobile-first) ------------------------------------------------------------
