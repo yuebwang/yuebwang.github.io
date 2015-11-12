@@ -1,1 +1,17 @@
-h3              { text-align:center; margin-top:20em; }
+body                  { color:#333; background-color:#fffff1; }
+
+.fa-camera-retro      { position:fixed; bottom:10px; left:10px; font-size:2em; }
+.fa-spinner           { position:fixed; top:10px; right:10px; font-size:2em; }
+.content              { width:50%; margin:auto; display:flex; flex-direction:column; align-items:center; }
+
+.type-1               { font-family: 'Passion One', cursive; font-size:10em; }
+.type-2               { font-family: 'Cinzel', serif; font-size:8em; }
+.type-3               { font-family: 'Corben', cursive; font-size:7em; }
+.type-4               { font-family: 'Black Ops One', cursive; font-size:8em; }
+.type-5               { font-family: 'Exo 2', sans-serif; font-size:9em; }
+
+a,
+a:hover,
+a:visited             { text-decoration:none; color:#333; }
+
+a:hover               { text-decoration:underline; }
