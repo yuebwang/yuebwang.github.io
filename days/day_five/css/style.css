@@ -1,1 +1,37 @@
-h3              { text-align:center; margin-top:20em; }
+video#bgvid {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    /*background: url(polina.jpg) no-repeat;*/
+    background-size: cover;
+}
+
+.title {
+    position: fixed;
+    z-index: 1;
+    top: 50%;
+    left: 40%;
+    color: white;
+    font-family: 'Monoton', cursive;
+    font-size:5em;
+}
+
+a {
+    text-decoration: none;
+    color: orange;
+    opacity: 0.3;
+    transition: opacity 5s 1s ease-in;
+}
+
+a:hover {
+    color: white;
+    opacity: 0.6;
+
+}
