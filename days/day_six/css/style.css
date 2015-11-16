@@ -1,1 +1,6 @@
-h3              { text-align:center; margin-top:20em; }
+body            { background:linear-gradient(180deg, red, blue);}
+
+h3              { text-align:center; margin-top:12em; font-family: 'Lateef', cursive; font-size: 2em; color: #eee; }
+img             { width:100%; margin-top:20em; margin-bottom:-0.3em; }
+
+a               { text-decoration:none; color:#eee; }
