@@ -1,3 +1,14 @@
+.credit {
+  display: flex;
+  flex-direction: column;
+  position:fixed;
+  top: 80%;
+  left: 40%;
+  color: rgba(255, 255, 255, 0.2);
+  line-height: 2;
+}
+
+
 video#bgvid {
     position: fixed;
     top: 50%;
@@ -20,7 +31,7 @@ video#bgvid {
     left: 40%;
     color: white;
     font-family: 'Monoton', cursive;
-    font-size:5em;
+    font-size:3em;
 }
 
 a {
