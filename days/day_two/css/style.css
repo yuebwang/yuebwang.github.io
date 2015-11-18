@@ -6,7 +6,7 @@
 
 .content {
   position: absolute;
-  margin-top: 40%;
+  margin-top: 30%;
   margin-left: 10%;
 }
 
@@ -21,4 +21,22 @@
   font-family: Vollkorn, Georgia, serif;
   font-size: 5em;
   color: #00F;
+}
+
+.global-nav {
+  position: absolute;
+  right: 2em;
+  top: 2em;
+}
+
+.last-day {
+  text-decoration: none;
+  color: #FFF;
+  background: #00F;
+  border-radius: 100px;
+  display: flex;
+  width: 5em;
+  height: 5em;
+  align-items: center;
+  justify-content: center;
 }
