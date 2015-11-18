@@ -2,5 +2,6 @@
 img                   { width:800px; border-radius:500px; margin-top:10em; border-top:14em dashed #FEF21A; }
 .title                { font-family: 'Nova Mono', cursive; font-size:15em; position:absolute; bottom:10px; left:15%; }
 
-a                     { text-decoration:none; color:#356FD3; }
-a:hover               { color:#78A0E5; }
+
+.last-day           { position:absolute; right:2em; top:8em; }
+.last-day           { text-decoration:none; color:white; border:10px dashed white; padding:5px; }
