@@ -1,2 +1,62 @@
 
-h3              { text-align:center; margin-top:15em; }
+
+
+.wrapper {
+  background-color: #ffffff;
+  font-family: 'Abel', sans-serif;
+}
+
+.content {
+  display:flex;
+  flex-direction:column;
+  float:left;
+  margin-top: 10em;
+  margin-left: 10em;
+  color: #333333;
+}
+
+
+
+.title {
+  font-size: 1.5em;
+}
+
+
+a {
+  /*text-decoration: none;*/
+  color: #333333;
+  position:relative;
+  margin-top: 0.5em;
+}
+
+/*a:hover {
+  position:relative;
+}*/
+
+
+a.link:after {
+  content:url(../img/yoyoyo.jpg);
+  transform:scale(0.5);
+  transform-origin: 10% 0%;
+  display:block;
+  position:absolute;
+  left:150px;
+  top:-50px;
+  opacity:0;
+  transition-property: all;
+  transition-timing-function: ease;
+  transition-duration: 0.5s;
+}
+
+
+a.link:hover:after {
+  opacity:1;
+  transition-property: all;
+  transition-timing-function: ease;
+  transition-duration: 1s;
+}
+
+
+.next {
+  margin-top: 20em;
+}
