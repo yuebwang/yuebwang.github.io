@@ -9,7 +9,7 @@
 .canvas {
   position: relative;
   margin: 0 auto;
-  width: 100%;
+  max-width: 100%;
   min-height: 100vh;
   background: #FFFFFE;
 
@@ -17,6 +17,8 @@
   flex-direction: row;
   align-items: flex-start;
   justify-content: center;
+
+  border: 30em solid #003059;
 }
 
 
@@ -25,7 +27,7 @@
   position: absolute;
   left: 33%;
   top: 70%;
-  color: #146ea6;
+  color: #003059;
   font-family: 'Righteous', cursive;
 
   display: flex;
@@ -33,7 +35,7 @@
 }
 
 a {
-  color: #146ea6;
+  color: #003059;
 }
 
 .ball-1 {
