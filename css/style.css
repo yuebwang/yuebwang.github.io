@@ -1,23 +1,56 @@
 body {
-  background-color: #333;
   font-family: 'Raleway', sans-serif;
 }
 
-.wrapper {
-  padding: 3rem;
-}
+
+/* intro section*/
 
 .intro {
+  padding: 3rem;
+  background-color: #333;
+}
+
+.quote {
   color: #fff;
   font-size: 5rem;
 }
 
-.self {
+.about_work {
   color: #666;
   font-size: 3rem;
 }
 
-a {
+.about_work a {
+  text-decoration: none;
+  color: #DA3743;
+}
+
+/* photo section */
+
+.photo {
+  padding: 3rem;
+  background-color: #fff;
+}
+
+.first {
+  margin-top: 2rem;
+}
+
+.second {
+  margin-top: 8rem;
+}
+
+.third {
+  margin-top: -4rem;
+}
+
+.about_photo {
+  color: #333;
+  font-size: 3rem;
+  margin-top: 2rem;
+}
+
+.about_photo a {
   text-decoration: none;
   color: #DA3743;
 }
