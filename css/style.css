@@ -1,5 +1,5 @@
 body {
-  font-family: 'Raleway', sans-serif;
+  font-family: 'Oxygen', sans-serif;
 }
 
 
@@ -11,8 +11,10 @@ body {
 }
 
 .quote {
+  font-family: 'IM Fell English', serif;
+  font-weight: 400;
   color: #fff;
-  font-size: 5rem;
+  font-size: 4rem;
 }
 
 .about_work {
