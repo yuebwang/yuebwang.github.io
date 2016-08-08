@@ -1,2 +1,2 @@
-# 100daysofweb
-learning about web by doing something with it everyday for 100 days
+# 50&9
+site
