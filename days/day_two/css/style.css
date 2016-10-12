@@ -1,0 +1,42 @@
+.wrapper {
+  background: url("../img/bg.jpg") repeat;
+  background-size: 25em;
+  position: relative;
+}
+
+.content {
+  position: absolute;
+  margin-top: 30%;
+  margin-left: 10%;
+}
+
+.title {
+  font-family: "Open Sans", Helvetica, sans-serif;
+  font-size: 1.5em;
+  color: #00F;
+  font-weight: 600;
+}
+
+.sub-title {
+  font-family: Vollkorn, Georgia, serif;
+  font-size: 5em;
+  color: #00F;
+}
+
+.global-nav {
+  position: absolute;
+  right: 2em;
+  top: 2em;
+}
+
+.last-day {
+  text-decoration: none;
+  color: #FFF;
+  background: #00F;
+  border-radius: 100px;
+  display: flex;
+  width: 5em;
+  height: 5em;
+  align-items: center;
+  justify-content: center;
+}

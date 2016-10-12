@@ -1,0 +1,10 @@
+body            { background:linear-gradient(180deg, red, blue);}
+
+h3              { text-align:center; margin-top:12em; font-family: 'Lateef', cursive; font-size: 2em; color: #eee; }
+img             { width:100%; margin-top:20em; margin-bottom:-0.3em; }
+
+
+
+.global-nav     { background:#FFF; width:100%; height:5em; display:flex; flex-direction:row; align-items:center; justify-content:center; }
+.last-day       { color:#333; }
+a               { text-decoration:none; }

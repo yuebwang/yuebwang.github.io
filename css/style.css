@@ -1,0 +1,58 @@
+body {
+  font-family: 'Oxygen', sans-serif;
+}
+
+
+/* intro section*/
+
+.intro {
+  padding: 3rem;
+  background-color: #333;
+}
+
+.quote {
+  font-family: 'IM Fell English', serif;
+  font-weight: 400;
+  color: #fff;
+  font-size: 4rem;
+}
+
+.about_work {
+  color: #666;
+  font-size: 3rem;
+}
+
+.about_work a {
+  text-decoration: none;
+  color: #DA3743;
+}
+
+/* photo section */
+
+.photo {
+  padding: 3rem;
+  background-color: #fff;
+}
+
+.first {
+  margin-top: 2rem;
+}
+
+.second {
+  margin-top: 8rem;
+}
+
+.third {
+  margin-top: -4rem;
+}
+
+.about_photo {
+  color: #333;
+  font-size: 3rem;
+  margin-top: 2rem;
+}
+
+.about_photo a {
+  text-decoration: none;
+  color: #DA3743;
+}

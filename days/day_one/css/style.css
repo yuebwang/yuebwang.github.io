@@ -1,0 +1,89 @@
+/* Shared
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+a                 { text-decoration:none; color:black; }
+*                 { border-radius:999px; }
+
+/* Wrapper
+–––––––––––––––––––––––––––––––––––––––––––––––––– */
+.wrapper          { max-height: auto; max-width: auto; border: 10em solid blue; }
+.l1               { max-height: auto; max-width: auto; border: 10em solid red; }
+.l2               { max-height: auto; max-width: auto; border: 10em solid yellow; }
+.l3               { max-height: auto; max-width: auto; border: 10em solid grey; }
+.l4               { max-height: auto; max-width: auto; border: 10em solid white; display: flex; flex-direction: row; align-items: center; justify-content: center; }
+.title            { font-size:150%; text-align:center; }
+
+
+/* ----------------------------------------------------------------------------------------------------------
+Media queries (mobile-first) ------------------------------------------------------------
+---------------------------------------------------------------------------------------------------------- */
+
+/* 1 and up */
+@media screen and (min-width:1px) {
+
+  body 						{ font-size:85%; }
+
+}
+
+
+/* 550 and up */
+@media screen and (min-width:550px) {
+
+
+}
+
+/* 650 and up */
+@media screen and (min-width:650px) {
+
+
+}
+
+/* 700 and up */
+@media screen and (min-width:700px) {
+
+  body 						{ font-size:70%; }
+
+}
+
+/* 800 and up */
+@media screen and (min-width:800px) {
+
+  body 						{ font-size:80%; }
+
+}
+
+/* 900 and up */
+@media screen and (min-width:900px) {
+
+  body 						{ font-size:90%; }
+
+}
+
+/* 1500 and up */
+@media screen and (min-width:1500px) {
+
+  body 						{ font-size:100%; }
+  h1              { font-size: 1em}
+
+}
+
+/* 1800 and up */
+@media screen and (min-width:1800px) {
+
+  body 						{ font-size:110%; }
+
+}
+
+/* 2100 and up */
+@media screen and (min-width:2100px) {
+
+  body 						{ font-size:125%; }
+
+}
+
+
+/* 2500 and up */
+@media screen and (min-width:2500px) {
+
+  body 						{ font-size:150%; }
+
+}
