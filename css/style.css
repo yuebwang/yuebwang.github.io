@@ -6,24 +6,42 @@ body {
 /* intro section*/
 
 .intro {
-  padding: 3rem;
-  background-color: #333;
+  padding: 5rem;
+  background-color: #2d353b;
+  /* height: 80%; */
+  display: grid;
+  grid-template-columns: minmax(auto, 80vw) 1fr;
+  grid-template-rows: 1fr 0.5fr;
+  grid-row-gap: 2rem;
+  grid-template-areas: "quote ."
+                       "about_work .";
 }
 
 .quote {
   font-family: 'IM Fell English', serif;
   font-weight: 400;
   color: #fff;
-  font-size: 4rem;
+  font-size: 4.5rem;
+  grid-area: quote;
 }
 
 .about_work {
-  color: #666;
-  font-size: 3rem;
+  font-family: 'Nanum Gothic', sans-serif;
+  color: #828282;
+  font-size: 2.5rem;
+  grid-area: about_work;
+  padding-top: 1rem;
+  line-height: 1.25;
 }
 
-.about_work a {
-  text-decoration: none;
+.about_work a, .about_photo a {
+  /* text-decoration: none; */
+  color: #828282;
+  transition: color 0.5s;
+}
+
+
+.about_work a:hover, .about_photo a:hover {
   color: #DA3743;
 }
 
@@ -31,28 +49,70 @@ body {
 
 .photo {
   padding: 3rem;
-  background-color: #fff;
+  background-color: #bd8a52;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: 1fr;
 }
 
 .first {
-  margin-top: 2rem;
+  grid-column: 1 / span 2;
+  grid-row: 1 / span 1;
 }
 
-.second {
-  margin-top: 8rem;
+/* .second {
+  grid-column: 2 / span 2;
+  grid-row: 3 / span 1;
 }
 
 .third {
-  margin-top: -4rem;
-}
+  grid-column: 3 / span 2;
+  grid-row: 2 / span 1;
+} */
 
-.about_photo {
+/* .about_photo {
   color: #333;
-  font-size: 3rem;
-  margin-top: 2rem;
-}
+  font-size: 2rem;
+  grid-column: 4 / span 1;
+} */
 
-.about_photo a {
-  text-decoration: none;
-  color: #DA3743;
+
+@media only screen and (max-width: 640px) {
+  .quote {
+    font-size: 2.5rem;
+  }
+
+  .intro {
+    padding: 3rem;
+  }
+
+  .about_work {
+    font-size: 1.5rem;
+  }
+
+  .photo {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr auto;
+  }
+
+  .first {
+    grid-column: span 1;
+  }
+
+  /* .second {
+    display: none;
+  }
+
+  .third {
+    display: none;
+  }
+
+  .about_photo {
+    color: #333;
+    font-size: 1.5rem;
+    grid-column: auto;
+  } */
+
+
 }
