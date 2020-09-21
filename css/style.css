@@ -101,6 +101,11 @@ body {
     grid-column: span 1;
   }
 
+  .post {
+    font-size: 1em;
+    margin: 60px auto;
+    width: 75%;
+  }
   /* .second {
     display: none;
   }
