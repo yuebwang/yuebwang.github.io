@@ -91,30 +91,13 @@ body {
     font-size: 1.5rem;
   }
 
-  .photo {
+  /* .photo {
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr auto;
-  }
+  } */
 
   .first {
     grid-column: span 1;
   }
-
-  .post {
-    width: 75%;
-  }
-  /* .second {
-    display: none;
-  }
-
-  .third {
-    display: none;
-  }
-
-  .about_photo {
-    color: #333;
-    font-size: 1.5rem;
-    grid-column: auto;
-  } */
 }
