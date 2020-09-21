@@ -1,11 +1,11 @@
 ---
 layout: post
-title: "Starting again."
+title: "Markdown or markup"
 date: 2020-09-13
 ---
 
-Start.Again.
+Markdown or markup?
 
 > Markdown is a markup language with a syntax closer to plain text. The idea of Markdown is to get out of the author's way so they can write their HTML content quickly, making Markdown very suitable as a blog authoring syntax.
 
-Markdown is a markup language. ```Markdown == Markup``` Is this a confusing definition? 
+Markdown is a markup language. `Markdown == Markup` Is this a confusing definition?
