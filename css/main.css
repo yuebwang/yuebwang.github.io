@@ -44,3 +44,8 @@ ul.posts {
 ul.posts li {
   list-style: none;
 }
+
+.post {
+  font-size: 1em;
+  font-family: "Helvetica", "Arial", "Sans-Serif";
+}
