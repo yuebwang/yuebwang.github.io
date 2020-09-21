@@ -1,49 +1,50 @@
 body {
-  font-family: 'Oxygen', sans-serif;
+  font-family: "Helvetica", "Arial", "Sans-Serif";
 }
-
 
 /* intro section*/
 
 .intro {
   padding: 5rem;
-  background-color: #2d353b;
+  background-color: #fff;
   /* height: 80%; */
   display: grid;
   grid-template-columns: minmax(auto, 80vw) 1fr;
   grid-template-rows: 1fr 0.5fr;
   grid-row-gap: 2rem;
-  grid-template-areas: "quote ."
-                       "about_work .";
+  grid-template-areas:
+    "quote ."
+    "about_work .";
 }
 
 .quote {
-  font-family: 'IM Fell English', serif;
+  font-family: "IM Fell English", serif;
   font-weight: 400;
-  color: #fff;
+  color: #2d353b;
   font-size: 4.5rem;
   grid-area: quote;
 }
 
 .about_work {
-  font-family: 'Rubik', sans-serif;
+  font-family: "Helvetica", "Arial", "Sans-Serif";
   font-weight: 300;
-  color: #828282;
+  color: #2d353b;
   font-size: 2.5rem;
   grid-area: about_work;
   padding-top: 1rem;
   line-height: 1.25;
 }
 
-.about_work a, .about_photo a {
+.about_work a,
+.about_photo a {
   /* text-decoration: none; */
-  color: #828282;
+  color: #2d353b;
   transition: color 0.5s;
 }
 
-
-.about_work a:hover, .about_photo a:hover {
-  color: #DA3743;
+.about_work a:hover,
+.about_photo a:hover {
+  color: #da3743;
 }
 
 /* photo section */
@@ -76,7 +77,6 @@ body {
   font-size: 2rem;
   grid-column: 4 / span 1;
 } */
-
 
 @media only screen and (max-width: 640px) {
   .quote {
@@ -114,6 +114,4 @@ body {
     font-size: 1.5rem;
     grid-column: auto;
   } */
-
-
 }
