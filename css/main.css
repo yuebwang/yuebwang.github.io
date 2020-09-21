@@ -45,8 +45,14 @@ ul.posts li {
   list-style: none;
 }
 
-.post,
 .meta {
   font-size: 1em;
   font-family: "Helvetica", "Arial", "Sans-Serif";
+}
+
+.post {
+  font-size: 1em;
+  font-family: "Helvetica", "Arial", "Sans-Serif";
+  margin: 60px auto;
+  width: 50%;
 }
