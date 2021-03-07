@@ -23,7 +23,7 @@ a:hover {
 }
 h1 {
   font-size: 1em;
-  font-family: "Helvetica", "Arial", "Sans-Serif";
+  font-family: "Georgia", "Serif";
 }
 p {
   font-size: 1em;
@@ -39,7 +39,7 @@ ul.posts {
   margin: 20px 0;
   padding: 0;
   font-size: 1em;
-  font-family: "Helvetica", "Arial", "Sans-Serif";
+  font-family: "Georgia", "Serif";
 }
 
 ul.posts li {
@@ -48,12 +48,12 @@ ul.posts li {
 
 .meta {
   font-size: 1em;
-  font-family: "Helvetica", "Arial", "Sans-Serif";
+  font-family: "Georgia", "Serif";
 }
 
 .post {
   font-size: 1em;
-  font-family: "Helvetica", "Arial", "Sans-Serif";
+  font-family: "Georgia", "Serif";
   margin: 60px auto;
   width: 55vw;
 }
