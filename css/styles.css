@@ -1,0 +1,55 @@
+:root {
+    --background-color: hsl(212, 100%, 36%);  
+    --text-color: white;
+    --grid-gap: 0.125rem;
+}
+
+body {
+    background-color:var(--background-color);
+}
+
+main {
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-columns: repeat(12, 1fr);
+    gap: var(--grid-gap);
+} 
+
+figure {
+    grid-column: 1 / 7;
+    background-image: url(/img/000015690012.jpg);
+    background-size: cover;
+    margin: 0;
+    position: relative;
+}
+
+figcaption {
+    position: fixed;
+    bottom: calc(var(--grid-gap)*8);
+    padding-left: calc(var(--grid-gap)*8);
+    color: var(--text-color);
+}
+
+sidebar {
+    grid-column: 7 / 12;
+    color: var(--text-color);
+    padding: calc(var(--grid-gap)*8);
+}
+
+/* mobile layout */
+
+@media (max-width: 786px) { 
+
+    figure {
+        grid-column: 1 / 13;
+    }
+
+    figcaption {
+        top: calc(var(--grid-gap)*8);
+    }
+
+    sidebar {
+        grid-column: 1 / 8;
+    }
+}
