@@ -1,6 +1,9 @@
 :root {
-  --background-color: hsl(212, 100%, 36%);
-  --text-color: white;
+  --background-color: wheat;
+/* hsl(212, 100%, 36%); */
+  --text-color: rgb(40, 39, 36);
+  --text-color-alt: rgb(40, 39, 36);
+  --background-color-month: wheat; 
   --grid-gap: 0.125rem;
 }
 
@@ -18,7 +21,7 @@ main {
 
 figure {
   grid-column: 1 / 7;
-  background-image: url(/img/IMG_9457.jpg);
+  background-image: url(/img/000036950018.jpg);
   background-size: cover;
   margin: 0;
   position: relative;
@@ -26,15 +29,54 @@ figure {
 
 figcaption {
   position: fixed;
-  bottom: calc(var(--grid-gap) * 8);
+  bottom: calc(var(--grid-gap) * 16);
   padding-left: calc(var(--grid-gap) * 8);
-  color: var(--text-color);
+  color: var(--text-color-alt);
+  background-color: var(--background-color-month);
+  padding: 4px;
+  font-weight: 600;
 }
 
 sidebar {
-  grid-column: 7 / 12;
+  grid-column: 7 / 13;
   color: var(--text-color);
-  padding: calc(var(--grid-gap) * 8);
+  padding: calc(var(--grid-gap) * 16);
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+  grid-template-rows: repeat(6, 1fr);
+  overflow: scroll;
+  position: relative;
+}
+
+p.intro {
+  grid-column: 7 / 13;
+  grid-row: 12 / 13;
+  color: hsl(212, 100%, 36%);
+  font-weight: 600;
+}
+
+
+.quote {
+  grid-column: 1 / 10;
+  grid-row: 1 / 13;
+  font-size: 2rem;
+  font-weight: bold;
+  z-index: 2;
+  max-height: 100vh;
+}
+
+.sketch {
+  /* grid-column: 7 / 13;
+  grid-row: 1 / 3; */
+  position: absolute;
+  top: 5rem;
+  right: 5rem;
+  background-image: url(/img/IMG_9457.jpg);
+  border-radius: 50%;
+  width: 12rem;
+  height: 12rem;
+  /* margin-left: -10vw;
+  z-index: 2; */
 }
 
 /* mobile layout */
@@ -51,10 +93,32 @@ sidebar {
 
   figcaption {
     top: calc(var(--grid-gap) * 8);
+    left: calc(var(--grid-gap) * 8);
+    background-color: unset;
+    color:wheat
   }
 
   sidebar {
-    grid-column: 1 / 10;
+    grid-column: 1 / 13;
     grid-row: 2 / 3;
+    padding: calc(var(--grid-gap) * 8);
   }
+
+  .quote {
+    grid-column: 1 / 8;
+  }
+
+  p.intro {
+    grid-column: 1 / 13;
+    padding-left: calc(var(--grid-gap) * 8);
+  }
+
+  .sketch {
+    top: 15rem;
+    bottom: 5rem;
+    right: 5rem;
+    width: 6rem;
+    height: 6rem;
+  }
+
 }
