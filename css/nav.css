@@ -1,0 +1,105 @@
+/* Minimal navigation styles - override as needed per page */
+.yuebo-nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 10000;
+    padding: 1rem;
+    background: rgba(245, 222, 179, 0.95); /* wheat with transparency */
+    backdrop-filter: blur(10px);
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    font-size: 0.875rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+  }
+  
+  .yuebo-nav a {
+    color: rgb(40, 39, 36);
+    text-decoration: none;
+    padding: 0.25rem 0.5rem;
+    transition: opacity 0.2s;
+  }
+  
+  .yuebo-nav a:hover {
+    opacity: 0.7;
+  }
+  
+  .nav-home {
+    font-weight: 600;
+  }
+  
+  .nav-adjacent {
+    display: flex;
+    gap: 0.5rem;
+    margin-left: auto;
+  }
+  
+  .nav-menu {
+    position: relative;
+    margin-left: auto;
+  }
+  
+  .nav-toggle {
+    background: none;
+    border: 1px solid rgb(40, 39, 36);
+    padding: 0.25rem 0.5rem;
+    cursor: pointer;
+    font-size: 1rem;
+    color: rgb(40, 39, 36);
+  }
+  
+  .nav-days {
+    position: absolute;
+    top: 100%;
+    right: 0;
+    margin-top: 0.5rem;
+    background: rgba(245, 222, 179, 0.98);
+    list-style: none;
+    padding: 0.5rem 0;
+    margin: 0.5rem 0 0 0;
+    min-width: 120px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+    display: none;
+    max-height: 70vh;
+    overflow-y: auto;
+  }
+  
+  .nav-days.open {
+    display: block;
+  }
+  
+  .nav-days li {
+    margin: 0;
+  }
+  
+  .nav-days a {
+    display: block;
+    padding: 0.5rem 1rem;
+  }
+  
+  .nav-days a.active {
+    font-weight: 600;
+    background: rgba(40, 39, 36, 0.1);
+  }
+  
+  /* Mobile adjustments */
+  @media (max-width: 768px) {
+    .yuebo-nav {
+      flex-wrap: wrap;
+      font-size: 0.75rem;
+    }
+    
+    .nav-adjacent {
+      order: 3;
+      width: 100%;
+      justify-content: space-between;
+      margin-left: 0;
+      margin-top: 0.5rem;
+    }
+    
+    .nav-menu {
+      margin-left: auto;
+    }
+  }
